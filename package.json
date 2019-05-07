@@ -1,0 +1,33 @@
+{
+    "name": "ionic4-snippet",
+    "displayName": "ionioc 4 Snippets",
+    "description": "Starter Ionic4 Snippets For Poor Lazy Developers",
+    "version": "1.0.1",
+    "publisher": "EmadFanaian",
+    "icon": "images/icon.png",
+    "engines": {
+        "vscode": "^1.9.1"
+    },
+    "galleryBanner": {
+        "color": "#333",
+        "theme": "dark"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+            "language": "html",
+            "path": "./snippets/snippets.json"
+        }]
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/EmadFani/adonisjs-vscode-snippet/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/EmadFani/adonisjs-vscode-snippet.git"
+    },
+    "homepage": "https://github.com/EmadFani/adonisjs-vscode-snippet/blob/master/README.md"
+}
